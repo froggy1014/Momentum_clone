@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <div class="contatiner">
+        <section class="fst-box">
+            <form id="searchbar" action="https://www.google.com/search" target="_blank" method="get"> 
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div id="sch">
+                    <input name="q" type="text"/>
+                </div>
+            </form>
+            <div class="weather-box">
+                <span class="whticon"></span>
+                <span class="whttemp"></span>
+                <div class="whtlocation"></div>
+            </div>
+        </section>
+        <section class="mid-box">
+            <h2 id="clock">00:00:00</h2>
+            <form class="hidden" id="login-form">
+                <input required="id" type="text"    placeholder="What is   your name?">
+                <button>Log In</button>    
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+            <form id="todo-form">
+                <span id="question">What is your main focus     for today?</span><br>
+                <input type="text"required="text">
+            </form>
+        <ul id="todo-list">
+        </ul>
+        </section>
+        <footer id="quote">
+            <div id="qt-box">
+                <span></span>
+                <span></span>
+            </div>
+        </footer>
+    </div>
+    <script src="js/searchbar.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="https://kit.fontawesome.com/836e03adc1.js" 
+    crossorigin="anonymous"></script>
+  
+
+</body>
+</html>

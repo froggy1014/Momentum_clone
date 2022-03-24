@@ -1,0 +1,130 @@
+.hidden {
+    display: none;
+}
+
+body{
+    position:relative;
+    margin:0;
+}
+button {
+    background-color: transparent;
+    border : none;
+}
+
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.fst-box{
+    position: absolute;
+    width:100%;
+    height:45px;
+    
+}
+
+.fa-solid{
+    font-size:25px;
+    position: absolute;
+    color:white;
+    bottom:10px;
+}
+#searchbar{
+    position:absolute;
+    margin: 0;
+    left: 2%;
+}
+#sch{
+    border-bottom: solid 2px white;
+}
+.weather-box{
+    
+    margin: 10px 10px 0 0;
+    float:right;
+    font-size: 25px;
+    color:white;
+}
+.whttemp{
+  float: right;
+}
+.whtlocation{
+    font-size:20px;
+}
+
+.mid-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#question{
+    color: white;
+    font-size:25px;
+}
+
+#todo-form{
+    margin-top:100px;
+}
+
+#todo-list{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap : wrap;
+    max-width: 500px;
+}
+
+input{
+    border:none;
+    font-size: 30px;
+    text-align: center;
+    width:350px;
+    border-bottom: 1px solid white;
+    background-color:transparent;
+    color:white;
+    margin-top:15px;
+}
+input:focus{outline:none;
+    
+}
+
+
+.btm-box{
+    background-color: orangess;
+}
+
+#quote{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    bottom:0;
+    height:50px;
+    max-height: 200px;
+}
+
+#qt-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    max-height:200px;
+}
+#quote span:first-child{
+    display: inline-block;
+    max-width: 800px;
+    white-space: normal;
+}
+
+
+
