@@ -11,7 +11,7 @@ function searchover(){
 function handleSubmit(){
     console.log("submit");
 }
-
+line.style.visibility = "hidden";
 searchbox.addEventListener("mouseover", readysearch);
 searchbox.addEventListener("mouseout", searchover);
 textline.addEventListener("submit", handleSubmit);
